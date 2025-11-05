@@ -23,7 +23,7 @@ const LoansSection = ({ formData, setFormData, handleQuickApply }: LoansSectionP
       description: 'Быстрые деньги за 10 минут',
       amount: '5 000 - 30 000 ₽',
       term: 'до 30 дней',
-      rate: '1.5% в день',
+      rate: '0% в день',
       features: ['Без справок', 'Мгновенное решение', 'На карту любого банка'],
       color: 'from-purple-500 to-pink-500'
     },
@@ -32,7 +32,7 @@ const LoansSection = ({ formData, setFormData, handleQuickApply }: LoansSectionP
       description: 'Выгодные условия для всех',
       amount: '10 000 - 50 000 ₽',
       term: 'до 60 дней',
-      rate: '1.2% в день',
+      rate: '0% в день',
       features: ['Продление срока', 'Онлайн-оформление', 'Частичное погашение'],
       color: 'from-pink-500 to-orange-500'
     },
@@ -41,7 +41,7 @@ const LoansSection = ({ formData, setFormData, handleQuickApply }: LoansSectionP
       description: 'Для постоянных клиентов',
       amount: '50 000 - 100 000 ₽',
       term: 'до 90 дней',
-      rate: '0.9% в день',
+      rate: '0% в день',
       features: ['Пониженная ставка', 'Индивидуальные условия', 'Приоритетное обслуживание'],
       color: 'from-orange-500 to-purple-600'
     },

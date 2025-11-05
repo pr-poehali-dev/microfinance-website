@@ -181,15 +181,15 @@ const HeroSection = ({
                 <div className="pt-6 border-t space-y-3">
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">Процентная ставка:</span>
-                    <span className="font-semibold">1.5% в день</span>
+                    <span className="font-semibold">0% в день</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">Проценты:</span>
-                    <span className="font-semibold">{(calculateTotal() - loanAmount).toLocaleString()} ₽</span>
+                    <span className="font-semibold">0 ₽</span>
                   </div>
                   <div className="flex justify-between text-lg pt-2 border-t">
                     <span className="font-bold">К возврату:</span>
-                    <span className="font-bold text-accent text-2xl">{calculateTotal().toLocaleString()} ₽</span>
+                    <span className="font-bold text-accent text-2xl">{loanAmount.toLocaleString()} ₽</span>
                   </div>
                 </div>
 

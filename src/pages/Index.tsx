@@ -17,9 +17,7 @@ const Index = () => {
   });
 
   const calculateTotal = () => {
-    const dailyRate = 0.015;
-    const interest = loanAmount * dailyRate * loanTerm;
-    return Math.round(loanAmount + interest);
+    return loanAmount;
   };
 
   const handleQuickApply = (e: React.FormEvent) => {
